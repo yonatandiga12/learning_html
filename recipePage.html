@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Recipe</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <header>
+            <div class="main_logo">
+                <a href="mainPage.html">
+                    <img src="pictures/main_logo.jpg" alt="Main Logo">
+                </a>
+            </div>
+        </header>
+
+        <div id="recipeTitle"></div>
+        <div id="recipeDetails">
+            <div id="recipeIngredients"></div>
+            <div id="recipeInstructions"></div>
+        </div>
+    
+        <script>
+            // Retrieve the recipe name from the URL query parameter
+            const urlParams = new URLSearchParams(window.location.search);
+            const recipeName = urlParams.get("recipeName");
+
+            // Call the function to display recipe details
+            displayRecipeDetails(recipeName);
+        </script>
+    </body>
+</html>

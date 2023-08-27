@@ -1,0 +1,164 @@
+body{
+    background-color: white;
+    color: red;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+h1 {
+    color: black;
+    font-size: 60px;
+  }
+
+.main_logo {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+}
+
+.main_logo img {
+    width:  100px; 
+    height: 100px; 
+}
+
+/*Categories pictures configurations */
+
+.categories-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Adjust the number of columns */
+    gap: 1%; /* Adjust the gap between pictures */
+    margin-top: 40px; /* Adjust the margin as needed */ 
+}
+
+.category-picture {
+    border: 1px solid white;
+    padding: 13%;
+    cursor: pointer;
+    text-align: center;
+    position: relative;
+}
+
+
+.category-picture img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Style for the text overlay */
+.category-overlay {
+    position: absolute;
+    left: 13%;     /* controls where the color starts*/
+    right: 13%;
+    background-color: rgba(0, 0, 0, 0.7); 
+    color: white;
+    padding: 4%;
+    text-align: center;
+    opacity: 0;
+    transition: bottom 0.3s;
+    font-size: 180%; /* Change the text size */
+    font-family: cursive ;
+
+}
+
+/* Hover effect for picture */
+.category-picture:hover .category-overlay {
+    bottom: 10%;
+    opacity: 0.6;
+}
+
+
+
+/*Recipe pictures configurations */
+
+.recipes-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Adjust the number of columns */
+    gap: 1%; /* Adjust the gap between pictures */
+    margin-top: 40px; /* Adjust the margin as needed */ 
+}
+
+.recipe-picture {
+    padding: 13%;
+    text-align: center;
+    position: relative;
+}
+
+/* Hover effect for picture */
+.recipe-picture:hover {
+    transform: scale(1.25); /* Make the picture slightly bigger on hover */
+}
+
+.recipe-picture img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+
+#recipeDetails {
+    display: flex;
+    width: 80%;
+    gap: 5%;
+    padding-left: 10%;
+    position: relative;
+    font-size: 30px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color:black
+}
+
+
+#recipeTitle {
+    font-size: 150px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color:black
+}
+
+
+#recipeIngredients {
+    width: 30%;
+    text-align: left;
+    line-height: 250%;
+    border: 3px solid #000000;
+
+}
+
+#recipeIngredients ul {
+    list-style-type: none
+}
+
+
+#recipeInstructions {
+    width: 70%;
+    line-height: 200%;
+    text-align: left;
+}
+
+#recipeInstructions ul {
+    list-style: decimal;
+}
+
+
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    h1 {
+      font-size: 40px;
+    }
+
+    .main_logo img {
+        width:  50px; 
+        height: 50px; 
+    }
+
+    /* Style for the text overlay */
+    .category-overlay {
+        font-size: 150%; /* Change the text size */
+        font-family: 'Times New Roman', Times, serif ;
+    }
+
+}  

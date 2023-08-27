@@ -1,0 +1,37 @@
+[
+    {
+      "name": "Chocolate Chip cookies",
+      "ingredients": ["200g melted brown butter", "50g white sugar", "22-g brown sugar", "1 egg + 1 yolk", "30g milk",
+                     "10g vanilla extract", "340g flour", "1 tsp baking soda", "1 tsp salt", "300g bittersweet chocolate chips" ],
+      "instructions": ["Melt the butter untill browned",
+                       "Mix with the sugars",
+                       "Cool a little bit and mix everything else",
+                       "let rest in the fridge for 1-24 hours",
+                       "Divide into 35g balls",
+                       "Bake in a Preheated oven to 190c for 10 minutes"
+                    ]
+    },
+    {
+      "name": "Dinner Rolls",
+      "ingredients": ["120g water", "30g flour", "310g flour", "120g milk", "1 egg", "5g yeast", "25g sugar", "6g salt", "50g butter"],
+      "instructions": ["Mix the 120g water with the 30g flour and heat in a pan to create a roux (called tangzhong)",
+                       "Mix everything except the salt and the butter in a stand mixer for 10 minutes",
+                       "Add the salt and butter and mix for 5 minutes",
+                       "Let rise in the counter for 1 hour or in the fridge for 24 hours",
+                       "Divide the dough to 12 balls, and let them rise in a 42 inch cake pan for 45-60 minutes",
+                       "Prehat the oven to 190c, When hot brush the rolls with egg and bake for 25-30 minutes (or untill 190 fahrenheit internally)"
+                    ]
+    },
+    {"name":"Pizza",
+    "ingredients":["500g bread flour", "330g water", "4g yeast", "10g salt", "10g sugar", "25g olive oil"],
+    "instructions": ["To make the poolish: take 150 grams of water and flour, mix with a pinch of yeast and let rise in the counter for 12-16 hours",
+                    "Mix everything except the salt and the oil in a stand mixer for 10 minutes",
+                    "Add the salt and oil and mix for 6 minutes",
+                    "Let rise in the counter for 1 hour or in the fridge for 24-48 hours",
+                    "Divide the dough to 180g balls, and let them rise for 45-60 minutes",
+                    "Turn the oven on broiler to his max temperature",
+                    "When you are ready to make the pizza, flatten the dough ball, put on a hot pan and out tomato sauce and cheese",
+                    "When the pizza is brown in the bottom move it with the pan to the hot oven and let it broil for 4-5 minutes."
+                    ]
+    }
+  ]
